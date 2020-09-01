@@ -7,6 +7,8 @@ import Timer from './components/Timer/Timer'
 import Greeting from './components/Greeting';
 import FormLogin from './components/FormLogin/Login'
 import Calendar from './components/myCalendar/Calendar';
+import Slider from './components/Slider/Slider';
+
 
 
 
@@ -69,11 +71,11 @@ export default App;
 const App= () =>{
   return(
     <>
-    {/* <Greeting name={'React'}/>
-    <Timer/>
+     <Greeting name={'React'}/>
+    {/* <Timer/>
     <FormLogin/>
-    <Calendar/> */}
-
+    <Calendar/>  */}
+    <Slider/>
     
     
     </>

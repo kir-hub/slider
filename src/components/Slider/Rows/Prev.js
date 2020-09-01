@@ -3,12 +3,12 @@ import React, {useState} from 'react'
 
 export default function Prev() {
     const [isCurrentP, setCurrent] = 
-    useState(null);
+    useState(0);
     
     return(
         <div>
             <button onClick={() =>
-                setCurrent(isCurrentP = true)}>
+                setCurrent(isCurrentP= isCurrentP - 1)}>
             {'<'}
             </button> 
         </div>
